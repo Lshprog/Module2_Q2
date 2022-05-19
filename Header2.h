@@ -15,6 +15,7 @@ namespace q2 {
 	public:
 		int max_depth(Node* node);
 		void max_depth_delete(Node* node, int temp_pos);
+		void delete_subtree(Node* root);
 
 	};
 
